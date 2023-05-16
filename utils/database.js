@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { connectToDB } from "@utils/database";
 let isConnected = false; // track the connection
 
 export const connectToDB = async () => {
